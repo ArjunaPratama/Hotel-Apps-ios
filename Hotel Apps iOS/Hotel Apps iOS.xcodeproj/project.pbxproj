@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC72BCDF1FBE9A1F001F7446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BCDE1FBE9A1F001F7446 /* AppDelegate.swift */; };
+		DC72BCE11FBE9A1F001F7446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BCE01FBE9A1F001F7446 /* ViewController.swift */; };
+		DC72BCE41FBE9A1F001F7446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC72BCE21FBE9A1F001F7446 /* Main.storyboard */; };
+		DC72BCE71FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC72BCE51FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodeld */; };
+		DC72BCE91FBE9A1F001F7446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC72BCE81FBE9A1F001F7446 /* Assets.xcassets */; };
+		DC72BCEC1FBE9A1F001F7446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC72BCEA1FBE9A1F001F7446 /* LaunchScreen.storyboard */; };
+		DC72BCF71FBE9A1F001F7446 /* Hotel_Apps_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BCF61FBE9A1F001F7446 /* Hotel_Apps_iOSTests.swift */; };
+		DC72BD021FBE9A1F001F7446 /* Hotel_Apps_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD011FBE9A1F001F7446 /* Hotel_Apps_iOSUITests.swift */; };
+		DC72BD101FBEBCD7001F7446 /* HotelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD0F1FBEBCD7001F7446 /* HotelTableViewController.swift */; };
+		DC72BD121FBEBCEF001F7446 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD111FBEBCEF001F7446 /* HotelTableViewCell.swift */; };
+		DC72BD141FBEBD1A001F7446 /* AddhotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD131FBEBD1A001F7446 /* AddhotelViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC72BCF31FBE9A1F001F7446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC72BCD31FBE9A1F001F7446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC72BCDA1FBE9A1F001F7446;
+			remoteInfo = "Hotel Apps iOS";
+		};
+		DC72BCFE1FBE9A1F001F7446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC72BCD31FBE9A1F001F7446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC72BCDA1FBE9A1F001F7446;
+			remoteInfo = "Hotel Apps iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC72BCDB1FBE9A1F001F7446 /* Hotel Apps iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Apps iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72BCDE1FBE9A1F001F7446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC72BCE01FBE9A1F001F7446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC72BCE31FBE9A1F001F7446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC72BCE61FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hotel_Apps_iOS.xcdatamodel; sourceTree = "<group>"; };
+		DC72BCE81FBE9A1F001F7446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC72BCEB1FBE9A1F001F7446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC72BCED1FBE9A1F001F7446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC72BCF21FBE9A1F001F7446 /* Hotel Apps iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hotel Apps iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72BCF61FBE9A1F001F7446 /* Hotel_Apps_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel_Apps_iOSTests.swift; sourceTree = "<group>"; };
+		DC72BCF81FBE9A1F001F7446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC72BCFD1FBE9A1F001F7446 /* Hotel Apps iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hotel Apps iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72BD011FBE9A1F001F7446 /* Hotel_Apps_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel_Apps_iOSUITests.swift; sourceTree = "<group>"; };
+		DC72BD031FBE9A1F001F7446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC72BD0F1FBEBCD7001F7446 /* HotelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewController.swift; sourceTree = "<group>"; };
+		DC72BD111FBEBCEF001F7446 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		DC72BD131FBEBD1A001F7446 /* AddhotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddhotelViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC72BCD81FBE9A1F001F7446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BCEF1FBE9A1F001F7446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BCFA1FBE9A1F001F7446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC72BCD21FBE9A1F001F7446 = {
+			isa = PBXGroup;
+			children = (
+				DC72BCDD1FBE9A1F001F7446 /* Hotel Apps iOS */,
+				DC72BCF51FBE9A1F001F7446 /* Hotel Apps iOSTests */,
+				DC72BD001FBE9A1F001F7446 /* Hotel Apps iOSUITests */,
+				DC72BCDC1FBE9A1F001F7446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC72BCDC1FBE9A1F001F7446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BCDB1FBE9A1F001F7446 /* Hotel Apps iOS.app */,
+				DC72BCF21FBE9A1F001F7446 /* Hotel Apps iOSTests.xctest */,
+				DC72BCFD1FBE9A1F001F7446 /* Hotel Apps iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC72BCDD1FBE9A1F001F7446 /* Hotel Apps iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BCDE1FBE9A1F001F7446 /* AppDelegate.swift */,
+				DC72BCE01FBE9A1F001F7446 /* ViewController.swift */,
+				DC72BCE21FBE9A1F001F7446 /* Main.storyboard */,
+				DC72BCE81FBE9A1F001F7446 /* Assets.xcassets */,
+				DC72BCEA1FBE9A1F001F7446 /* LaunchScreen.storyboard */,
+				DC72BCED1FBE9A1F001F7446 /* Info.plist */,
+				DC72BCE51FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodeld */,
+				DC72BD0F1FBEBCD7001F7446 /* HotelTableViewController.swift */,
+				DC72BD111FBEBCEF001F7446 /* HotelTableViewCell.swift */,
+				DC72BD131FBEBD1A001F7446 /* AddhotelViewController.swift */,
+			);
+			path = "Hotel Apps iOS";
+			sourceTree = "<group>";
+		};
+		DC72BCF51FBE9A1F001F7446 /* Hotel Apps iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BCF61FBE9A1F001F7446 /* Hotel_Apps_iOSTests.swift */,
+				DC72BCF81FBE9A1F001F7446 /* Info.plist */,
+			);
+			path = "Hotel Apps iOSTests";
+			sourceTree = "<group>";
+		};
+		DC72BD001FBE9A1F001F7446 /* Hotel Apps iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BD011FBE9A1F001F7446 /* Hotel_Apps_iOSUITests.swift */,
+				DC72BD031FBE9A1F001F7446 /* Info.plist */,
+			);
+			path = "Hotel Apps iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC72BCDA1FBE9A1F001F7446 /* Hotel Apps iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72BD061FBE9A1F001F7446 /* Build configuration list for PBXNativeTarget "Hotel Apps iOS" */;
+			buildPhases = (
+				DC72BCD71FBE9A1F001F7446 /* Sources */,
+				DC72BCD81FBE9A1F001F7446 /* Frameworks */,
+				DC72BCD91FBE9A1F001F7446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hotel Apps iOS";
+			productName = "Hotel Apps iOS";
+			productReference = DC72BCDB1FBE9A1F001F7446 /* Hotel Apps iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC72BCF11FBE9A1F001F7446 /* Hotel Apps iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72BD091FBE9A1F001F7446 /* Build configuration list for PBXNativeTarget "Hotel Apps iOSTests" */;
+			buildPhases = (
+				DC72BCEE1FBE9A1F001F7446 /* Sources */,
+				DC72BCEF1FBE9A1F001F7446 /* Frameworks */,
+				DC72BCF01FBE9A1F001F7446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC72BCF41FBE9A1F001F7446 /* PBXTargetDependency */,
+			);
+			name = "Hotel Apps iOSTests";
+			productName = "Hotel Apps iOSTests";
+			productReference = DC72BCF21FBE9A1F001F7446 /* Hotel Apps iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC72BCFC1FBE9A1F001F7446 /* Hotel Apps iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72BD0C1FBE9A1F001F7446 /* Build configuration list for PBXNativeTarget "Hotel Apps iOSUITests" */;
+			buildPhases = (
+				DC72BCF91FBE9A1F001F7446 /* Sources */,
+				DC72BCFA1FBE9A1F001F7446 /* Frameworks */,
+				DC72BCFB1FBE9A1F001F7446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC72BCFF1FBE9A1F001F7446 /* PBXTargetDependency */,
+			);
+			name = "Hotel Apps iOSUITests";
+			productName = "Hotel Apps iOSUITests";
+			productReference = DC72BCFD1FBE9A1F001F7446 /* Hotel Apps iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC72BCD31FBE9A1F001F7446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC72BCDA1FBE9A1F001F7446 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DC72BCF11FBE9A1F001F7446 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC72BCDA1FBE9A1F001F7446;
+					};
+					DC72BCFC1FBE9A1F001F7446 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC72BCDA1FBE9A1F001F7446;
+					};
+				};
+			};
+			buildConfigurationList = DC72BCD61FBE9A1F001F7446 /* Build configuration list for PBXProject "Hotel Apps iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC72BCD21FBE9A1F001F7446;
+			productRefGroup = DC72BCDC1FBE9A1F001F7446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC72BCDA1FBE9A1F001F7446 /* Hotel Apps iOS */,
+				DC72BCF11FBE9A1F001F7446 /* Hotel Apps iOSTests */,
+				DC72BCFC1FBE9A1F001F7446 /* Hotel Apps iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC72BCD91FBE9A1F001F7446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72BCEC1FBE9A1F001F7446 /* LaunchScreen.storyboard in Resources */,
+				DC72BCE91FBE9A1F001F7446 /* Assets.xcassets in Resources */,
+				DC72BCE41FBE9A1F001F7446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BCF01FBE9A1F001F7446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BCFB1FBE9A1F001F7446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC72BCD71FBE9A1F001F7446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72BD101FBEBCD7001F7446 /* HotelTableViewController.swift in Sources */,
+				DC72BCE71FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodeld in Sources */,
+				DC72BCE11FBE9A1F001F7446 /* ViewController.swift in Sources */,
+				DC72BD141FBEBD1A001F7446 /* AddhotelViewController.swift in Sources */,
+				DC72BCDF1FBE9A1F001F7446 /* AppDelegate.swift in Sources */,
+				DC72BD121FBEBCEF001F7446 /* HotelTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BCEE1FBE9A1F001F7446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72BCF71FBE9A1F001F7446 /* Hotel_Apps_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BCF91FBE9A1F001F7446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72BD021FBE9A1F001F7446 /* Hotel_Apps_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC72BCF41FBE9A1F001F7446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC72BCDA1FBE9A1F001F7446 /* Hotel Apps iOS */;
+			targetProxy = DC72BCF31FBE9A1F001F7446 /* PBXContainerItemProxy */;
+		};
+		DC72BCFF1FBE9A1F001F7446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC72BCDA1FBE9A1F001F7446 /* Hotel Apps iOS */;
+			targetProxy = DC72BCFE1FBE9A1F001F7446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC72BCE21FBE9A1F001F7446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72BCE31FBE9A1F001F7446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC72BCEA1FBE9A1F001F7446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72BCEB1FBE9A1F001F7446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC72BD041FBE9A1F001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC72BD051FBE9A1F001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC72BD071FBE9A1F001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hotel Apps iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Hotel-Apps-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC72BD081FBE9A1F001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hotel Apps iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Hotel-Apps-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC72BD0A1FBE9A1F001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hotel Apps iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Hotel-Apps-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel Apps iOS.app/Hotel Apps iOS";
+			};
+			name = Debug;
+		};
+		DC72BD0B1FBE9A1F001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hotel Apps iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Hotel-Apps-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel Apps iOS.app/Hotel Apps iOS";
+			};
+			name = Release;
+		};
+		DC72BD0D1FBE9A1F001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hotel Apps iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Hotel-Apps-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hotel Apps iOS";
+			};
+			name = Debug;
+		};
+		DC72BD0E1FBE9A1F001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hotel Apps iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Hotel-Apps-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hotel Apps iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC72BCD61FBE9A1F001F7446 /* Build configuration list for PBXProject "Hotel Apps iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD041FBE9A1F001F7446 /* Debug */,
+				DC72BD051FBE9A1F001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC72BD061FBE9A1F001F7446 /* Build configuration list for PBXNativeTarget "Hotel Apps iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD071FBE9A1F001F7446 /* Debug */,
+				DC72BD081FBE9A1F001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC72BD091FBE9A1F001F7446 /* Build configuration list for PBXNativeTarget "Hotel Apps iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD0A1FBE9A1F001F7446 /* Debug */,
+				DC72BD0B1FBE9A1F001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC72BD0C1FBE9A1F001F7446 /* Build configuration list for PBXNativeTarget "Hotel Apps iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD0D1FBE9A1F001F7446 /* Debug */,
+				DC72BD0E1FBE9A1F001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC72BCE51FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC72BCE61FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodel */,
+			);
+			currentVersion = DC72BCE61FBE9A1F001F7446 /* Hotel_Apps_iOS.xcdatamodel */;
+			path = Hotel_Apps_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC72BCD31FBE9A1F001F7446 /* Project object */;
+}
